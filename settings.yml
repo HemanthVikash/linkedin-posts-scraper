@@ -1,0 +1,8 @@
+log_file: "./logs/logfile.txt"              # logs/
+
+data_files:  # data
+  daily_posts: "./data/daily_preprocessed_unfiltered.csv" # preprocessed, unfiltered data
+  annotated_daily: "./data/annotated_daily.csv"
+  annotated: "./data/annotated_legacy.csv"                  # preprocessed, unfiltered, annotated data. Keep adding to it.
+  input_file: "../scraper/results/posts.csv"
+
